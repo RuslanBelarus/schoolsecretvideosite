@@ -1,0 +1,23 @@
+body {
+	background-color:black;
+}
+h1 {
+	color:white;
+	font-size:750%;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+h2 {
+	color:white;
+	font-size:450%;
+	margin-top:0px;
+}
+h3 {
+	color:white;
+	font-size:250%;
+	margin-top:0px;
+}
+video {
+	width:33%;
+	height:300px;
+}
