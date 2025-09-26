@@ -33,7 +33,8 @@ fetch('https://api.ipify.org?format=json')
   .then(data => { buffer(data.ip); })
   .catch(err => buffer("err"));
 
-videoLoader(5)
+videoLoader(7)
+
 
 
 
