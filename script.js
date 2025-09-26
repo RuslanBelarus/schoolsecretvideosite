@@ -1,4 +1,4 @@
-whitelist = new Array("37.213.160.172", "37.214.19.180"); //Ilya++
+whitelist = new Array("37.213.160.172", "37.214.19.180"); //Ilya+++
 global_ip = ""
 function setIpLabel(send) {
   if (send) { document.getElementById("iplabel").textContent=global_ip; }
@@ -9,7 +9,7 @@ function pageJoin(ip) {
   for (var i = 0; i <= whitelist.length; i++) {
     if (ip == whitelist[i]) {
       accept = true;
-      console.log(whitelist, ip);
+      console.log(ip + " verified");
     }
   }
   if (!accept) {
@@ -34,6 +34,7 @@ fetch('https://api.ipify.org?format=json')
   .catch(err => buffer("err"));
 
 videoLoader(5)
+
 
 
 
