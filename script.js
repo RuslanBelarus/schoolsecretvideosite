@@ -1,4 +1,4 @@
-whitelist = new Array("37.213.160.172", "37.214.19.180", "37.214.21.191"); //Ilya+++
+whitelist = new Array("37.213.160.172", "37.214.19.180", "37.214.21.191", "178.168.212.34"); //Ilya+++
 global_ip = ""
 function setIpLabel(send) {
   if (send) { document.getElementById("iplabel").textContent=global_ip; }
@@ -34,6 +34,7 @@ fetch('https://api.ipify.org?format=json')
   .catch(err => buffer("err"));
 
 videoLoader(7)
+
 
 
 
