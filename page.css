@@ -1,0 +1,59 @@
+#label {
+	padding-left:2%;
+	font-size:60px;
+	margin-bottom:0%;
+	color:white;
+	text-shadow: 8px 8px 5px gray;
+}
+#sublabel {
+	padding-left:9%;
+	margin-top:0%;
+	font-size:35px;
+	color:white;
+	text-shadow: 1px 1px 20px gray;
+}
+#chapter {
+	font-size:60px;
+	text-align:center;
+	color:red;
+	text-shadow: 1px 1px 20px red;
+}
+#describe {
+	font-size:40px;
+	text-align:justify;
+	padding-left:25%;
+	padding-right:25%;
+	color:white;
+	text-shadow: 1px 1px 20px gray;
+}
+#dsc {
+	font-size:20px;
+	text-align:center;
+	color:white;
+	text-shadow: 1px 1px 20px lime;
+}
+video {
+	width:33%;
+	height:300px;
+}
+body {
+	background-color:black;
+}
+button {
+	color:white;
+	background-color:black;
+}
+#wml {
+	padding-top:20%;
+	color:white;
+	text-shadow: 1px 1px 7px white;
+}
+#wmd {
+	color:white;
+}
+#wmb {
+	color:white;
+	font-size:85%;
+	text-decoration:underline;
+	text-shadow: 1px 1px 7px white;
+}
