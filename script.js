@@ -1,5 +1,5 @@
 var ipList = new Array();
-ipList.push('37.213.10.223'); //37.213.10.223
+ipList.push("37.213.160.172", "37.214.19.180", "37.214.21.191", "178.168.212.34"); //37.213.10.223
 
 var verifPressed = false;
 
@@ -95,4 +95,5 @@ function buttonBuffer() {
 	} else {
 		betaIp();
 	}
+
 }
