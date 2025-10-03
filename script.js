@@ -58,7 +58,6 @@ function cancelIp() {
 function verifIp2(ip) {
 	var ver = false;
 	for (var i = 0; i <= ipList.length; i++) {
-		console.log(ipList[i]);
 		if (ip == ipList[i]) {
 			suffecultIp();
 			ver = true;
@@ -94,3 +93,4 @@ function buttonBuffer() {
 
 
 }
+
