@@ -27,7 +27,7 @@ function pageLoad() {
 	document.getElementsByClassName('hr')[0].innerHTML = '<hr>';
 	document.getElementsByClassName('hr')[1].innerHTML = '<hr>';
 	document.getElementsByClassName('hr')[2].innerHTML = '<hr>';
-	document.getElementById('videos').innerHTML = videoLoader(11);
+	document.getElementById('videos').innerHTML = videoLoader(12);
 
 }
 
@@ -93,5 +93,6 @@ function buttonBuffer() {
 
 
 }
+
 
 
