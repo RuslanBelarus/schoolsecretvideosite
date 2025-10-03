@@ -1,4 +1,4 @@
-var ipList = new Array("37.213.160.172", "37.214.19.180", "37.214.21.191", "178.168.212.34", "37.213.145.164");
+var ipList = new Array("37.214.4.223", "37.213.145.164", "37.214.16.40");
 var verifPressed = false;
 var betaMod = false;
 
@@ -91,5 +91,6 @@ function buttonBuffer() {
 	} else {
 		betaIp();
 	}
+
 
 }
