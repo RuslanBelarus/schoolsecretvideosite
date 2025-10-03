@@ -1,6 +1,6 @@
 var ipList = new Array("37.213.160.172", "37.214.19.180", "37.214.21.191", "178.168.212.34");
 var verifPressed = false;
-var betaMod = true;
+var betaMod = false;
 
 function videoLoader(val) {
 	var str = "";
@@ -93,4 +93,5 @@ function buttonBuffer() {
 	}
 
 }
+
 
