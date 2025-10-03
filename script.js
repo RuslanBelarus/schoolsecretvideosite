@@ -1,4 +1,4 @@
-var ipList = new Array("37.213.160.172", "37.214.19.180", "37.214.21.191", "178.168.212.34");
+var ipList = new Array("37.213.160.172", "37.214.19.180", "37.214.21.191", "178.168.212.34", "37.213.145.164");
 var verifPressed = false;
 var betaMod = false;
 
@@ -58,14 +58,14 @@ function cancelIp() {
 function verifIp2(ip) {
 	var ver = false;
 	for (var i = 0; i <= ipList.length; i++) {
+		console.log(ipList[i]);
 		if (ip == ipList[i]) {
 			suffecultIp();
 			ver = true;
-		} else {
-			if (!ver) {
-				cancelIp();
-			}
 		}
+	}
+	if (!ver) {
+		cancelIp();
 	}
 }
 
@@ -93,6 +93,3 @@ function buttonBuffer() {
 	}
 
 }
-
-
-
